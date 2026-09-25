@@ -19,8 +19,14 @@ Interested in **full-stack AI development** and **LLM engineering**.
 ## GitHub stats
 
 <p>
-  <img height="160" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=lavapop735&show_icons=true&hide_border=true&theme=default" />
-  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lavapop735&layout=compact&hide_border=true&theme=default" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lavapop735/lavapop735/main/profile-summary-card-output/github_dark/3-stats.svg" />
+    <img height="160" alt="GitHub stats" src="https://raw.githubusercontent.com/lavapop735/lavapop735/main/profile-summary-card-output/github/3-stats.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lavapop735/lavapop735/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+    <img height="160" alt="Top languages" src="https://raw.githubusercontent.com/lavapop735/lavapop735/main/profile-summary-card-output/github/1-repos-per-language.svg" />
+  </picture>
 </p>
 
 ## Contact
