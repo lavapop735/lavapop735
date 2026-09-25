@@ -1,0 +1,24 @@
+name: Profile summary cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # daily at 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # lets the action commit the generated SVGs
+
+    steps:
+      - uses: actions/checkout@v7
+      - uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
+        env:
+          # SUMMARY_GITHUB_TOKEN is a fine-grained PAT so private repos count towards the totals.
+          # Falls back to the built-in token (public data only) if the secret isn't set.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 0
