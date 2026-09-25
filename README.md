@@ -26,4 +26,4 @@ Interested in **full-stack AI development** and **LLM engineering**.
 ## Contact
 
 - GitHub: [@lavapop735](https://github.com/lavapop735)
-- Email: luca.s.barton@icloud.com
+- Email: lucasbarton@icloud.com
